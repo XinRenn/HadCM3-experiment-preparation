@@ -11,10 +11,10 @@ file_old_ancil=(preind_tenvo/)
 file_mod_ancil=(pliocene_tenvj/Plio_)
 file_old_ostart=(../work/chap3/restart/xpwku_test3_1.ostart.nc) #see exp diary
 file_mod_ostart=(../work/chap3/restart/xpwkv_test3_3.ostart.nc)
-file_old_bath=(preind_tenvo/tenvo_bath.nc)
-file_mod_bath=(pliocene_tenvj/tenvj_bath.nc)
-file_old_flux=(preind_tenvo/flux_correction.nc)
-file_mod_flux=(pliocene_tenvj/tenvjo@dap00c1.nc)
+file_old_bath=(PI_bath.nc)
+file_mod_bath=(mPWP_bath.nc)
+file_old_flux=(flux_correction.nc)
+file_mod_flux=(xpwkv_test3_3.ostart.nc)
 
 #### mPWP 2 PI
 #file_mod_ancil=(preind_tenvo/)

@@ -4,4 +4,6 @@ Only used to modify the maritime continent area. For other areas in the world, n
 
 Usage: sh Make_test_exp.sh
 Modify the heading info for the new exp
+lata_ref and lona_ref are the lat and lon indice of the atmospheric ancillary data.
 
+Only upload part of the data used in the scripts. 

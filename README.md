@@ -18,3 +18,13 @@ lata_ref and lona_ref are the lat and lon indice of the atmospheric ancillary da
 NCL scripts used in Make_test_exp.sh are all in scripts/
 
 Only uploaded part of the data used in the scripts. 
+
+*****************************************************************
+Chapter3 所需试验的boundary files准备脚本。最好不要改动 Make_test_exp.sh 里面的boxes的参考格点，如果要改动的话，注意stream function related variable在不同islands上面的值是不同且需要保持一致的。因此也要改动ostart脚本里面相关的处理语句（这里面很容易犯错，所以要记得改动后进行多次check）
+
+新增陆地格点后，一些容易忽略的导致试验crash地方：
+1. PLE在孟加拉湾处的初始值如果太大容易crash；
+2. ostart file里面UV格点和SST相关格点要对准，尤其是UV在longitude的边缘有一段overlapping
+3. PI试验要reconfigure oceanic P-E flux correction， mPWP试验则不需要（因为在UMUI上有关盐度correction的设置不同）
+4. 新创建的bathymetry文件在longitude边缘也有一段overlapping
+5. island的配置也很重要，需要手动修改文档添加island

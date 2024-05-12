@@ -1,8 +1,8 @@
-# This script is used to make new test experiments semi-aumontically.
+# This script is used to prepare files for new test experiments 
 # Cautions:
-# 1. if you wanna edit gridboxed at the edge of the map.Check ~/scripts/mod_atm_ancil_exchange_box.ncl for the SST grid part. I didn't consider the edge case.
+# 1. if you wanna edit gridboxed at the edge of the map. Check ~/scripts/mod_atm_ancil_exchange_box.ncl for the SST grid part. I didn't consider the edge case.
 # 2. check the ostart streamfunc related variables, if you change the grid, you need to make sure values on same land piece are the same.
-# 3. if you change the box, change line122 - lin133 in ~/scripts/mod_ostart_exchange_box.ncl
+# 3. if you change the box, change line122 - lin147 in ~/scripts/mod_ostart_exchange_box.ncl
 
 exp_name=(xpwkb) 
 

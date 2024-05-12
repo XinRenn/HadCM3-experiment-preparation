@@ -9,8 +9,8 @@ exp_name=(xpwkb)
 ### PI 2 mPWP
 file_old_ancil=(preind_tenvo/)
 file_mod_ancil=(pliocene_tenvj/Plio_)
-file_old_ostart=(../work/chap3/restart/xpwku_test3_1.ostart.nc) #see exp diary
-file_mod_ostart=(../work/chap3/restart/xpwkv_test3_3.ostart.nc)
+file_old_ostart=(xpwku_test3_1.ostart.nc) #see exp diary
+file_mod_ostart=(xpwkv_test3_3.ostart.nc)
 file_old_bath=(PI_bath.nc)
 file_mod_bath=(mPWP_bath.nc)
 file_old_flux=(flux_correction.nc)

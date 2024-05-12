@@ -1,4 +1,4 @@
-Backup of the scripts I used for my new experiments preparation.\
+Backup of the scripts I used for my new experiments preparation.
 
 Scripts are not so clean, even a little bit messy, but they work.
 

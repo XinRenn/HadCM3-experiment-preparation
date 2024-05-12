@@ -44,7 +44,7 @@ lonx = new((/dimsizes(lata_ref)/),"integer")
 v=0
   ;read data including lat and lon
   varold = fileold->$keys_var(v)$
-  varmod = filemod->PLE_uo
+  varmod = filemod->PLE_uo ;;use this as the reference
   var = varold
   latname = varold!2
   lonname = varold!3

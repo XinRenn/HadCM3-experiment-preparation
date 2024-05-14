@@ -28,7 +28,7 @@ Chapter3 所需试验的boundary files准备脚本。最好不要改动 Make_tes
 *不知道全采用方法a会不会导致试验产生极值并崩溃，为了稳妥起见，采用了这三种办法。
 
 新增陆地格点后，一些容易忽略的导致试验crash地方：
-1. PLE在孟加拉湾处的初始值如果太大容易crash；
+1. PLE在孟加拉湾处的初始值如果太大容易crash (可以把这个值设置为所有区域都为0)；
 2. ostart file里面UV格点和SST相关格点要对准，尤其是UV在longitude的边缘有一段overlapping
 3. PI试验要reconfigure oceanic P-E flux correction， mPWP试验则不需要（因为在UMUI上有关盐度correction的设置不同）
 4. 新创建的bathymetry文件在longitude边缘也有一段overlapping
